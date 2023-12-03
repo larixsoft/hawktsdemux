@@ -1,0 +1,5 @@
+
+option('package-origin', type : 'string', value : 'Unknown package origin', yield : true,
+       description : 'package origin URL to use in plugins')
+option('gstreamer-full-license', type : 'string', value : 'unknown',
+       description : 'gstreamer-full license (default unknown)')       
